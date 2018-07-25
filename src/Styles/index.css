@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,400i,700,800,900');
+
+body {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6, span, a, li, p {
+  padding: 0;
+  margin: 0;
+}
+
+.Container {
+  width: 960px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.VideoStuffContainer {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-column-gap: 120px;
+}
